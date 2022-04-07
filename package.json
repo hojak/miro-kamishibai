@@ -1,0 +1,29 @@
+{
+  "name": "miro-kamishibai",
+  "version": "1.0.0",
+  "description": "kamishibai tool for miro online boards",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/js/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hojak/miro-kamishibai.git"
+  },
+  "keywords": [
+    "miro",
+    "service",
+    "kamishibai"
+  ],
+  "author": "Holger Janßen-Kroll, Stefan Boos, Bernhard Schenk, Niklas Rüber",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hojak/miro-kamishibai/issues"
+  },
+  "homepage": "https://github.com/hojak/miro-kamishibai#readme",
+  "private": true,
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
