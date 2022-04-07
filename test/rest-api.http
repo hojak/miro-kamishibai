@@ -1,0 +1,8 @@
+### Check authorization for Users
+GET https://api.miro.com/v1/oauth-token
+Authorization: Bearer {{ api_token }}
+
+### Get elements from board
+GET https://api.miro.com/v1/boards/{{ board_id }}/widgets
+Authorization: Bearer {{ api_token }}
+Accept: application/json
