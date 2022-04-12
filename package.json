@@ -24,7 +24,6 @@
   "homepage": "https://github.com/hojak/miro-kamishibai#readme",
   "private": true,
   "dependencies": {
-    "api": "^4.3.0",
-    "express": "^4.17.3"
+    "dotenv-safe": "^8.2.0"
   }
 }

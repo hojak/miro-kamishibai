@@ -1,10 +1,11 @@
 # miro-kamishibai
 Kamishibai tool for usage with miro online boards
 
-secret.config beschreiben
+## TODO
+
+- Suche und fixe // TODO Der Request gibt einen STATUS 401 zurück - scheint das Authorization Token nicht zu akzeptieren
+- Build up our own REST API for miro using the request documentation from [miro API Reference](https://developers.miro.com/reference/introduction)
 
 ## Links
 
-- [miroapp/app-examples/sample-app/src/app.js](https://github.com/miroapp/app-examples/blob/main/sample-app/src/app.js)
-  - used: https://github.com/miroapp/app-examples/blob/main/sample-app/src/api.js
-- [miro API Reference: Create Widgets](https://developers.miro.com/reference/create-board-widgets)
+- [miro API Reference](https://developers.miro.com/reference/introduction)
